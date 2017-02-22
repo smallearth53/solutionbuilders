@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Test Blade
+                    Blade
                 </div>
 
                 <div class="links">
@@ -93,5 +93,4 @@
         </div>
     </body>
 </html>
-
 
