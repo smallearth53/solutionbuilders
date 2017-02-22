@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>GW2 Trading - @yield('title')</title>
+        <title>Solution Builders - @yield('title')</title>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="{{ URL::asset('/css/app.css') }}">
 
