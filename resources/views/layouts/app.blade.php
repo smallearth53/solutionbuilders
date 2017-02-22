@@ -69,14 +69,14 @@
                                 <ul class="nav navbar-nav pull-right">
 
                                     <li class="primary">
-                                        <a href="index.html" class="firstLevel active hasSubMenu" >Home</a>
+                                        <a href="{{url('/')}}" class="firstLevel active hasSubMenu" >Home</a>
 
                                     </li>
 
                                     <li class="sep"></li>
 
                                     <li class="primary"> 
-                                        <a href="features-neko-shortcodes.html" class="firstLevel hasSubMenu" >About</a>
+                                        <a href="{{url('/about')}}" class="firstLevel hasSubMenu" >About</a>
 
 
                                     </li>
@@ -84,7 +84,7 @@
 
 
                                     <li class="sep"></li>
-                                    <li id="lastMenu" class="last"><a href="template-contact.html" class="firstLevel last">Contact</a></li>
+                                    <li id="lastMenu" class="last"><a href="{{url('/contact')}}" class="firstLevel last">Contact</a></li>
                                 </ul>
                                 <!-- End main navigation -->
                             </div>

@@ -19,13 +19,11 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/item/{id}', 'ItemController@show');
 
-Route::get('/items', 'ItemController@listItems');
+Route::get('/contact', function () {
+    return view('contact');
+});
 
-Route::get('/items/build', 'ItemController@buildDatabase');
-
-Route::get('/orders', 'OrdersController@index');
 
 
 
