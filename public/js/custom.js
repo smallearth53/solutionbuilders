@@ -171,7 +171,7 @@ $(window).on("load resize",function(e){
 		//mobile detection
 		if(Modernizr.mq('only all and (max-width: 767px)') ) {
 			isMobile = true;
-                        alert('mobile');
+                        alert('cellphone');
 		}else{
 			isMobile = false;
                         alert('desktop');
