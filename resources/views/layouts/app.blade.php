@@ -33,7 +33,8 @@
         <link rel="stylesheet" href="{{ URL::asset('css/layout.css') }}">
 
    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
-        <script src="js/modernizr-2.6.1.min.js"></script>
+<!--        <script src="js/modernizr-2.6.1.min.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
         <!-- Favicons
                 ================================================== -->
 
