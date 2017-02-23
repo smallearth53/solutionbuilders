@@ -171,10 +171,10 @@ $(window).on("load resize",function(e){
 		//mobile detection
 		if(Modernizr.mq('only all and (max-width: 767px)') ) {
 			isMobile = true;
-                        alert('cellphone');
+                        
 		}else{
 			isMobile = false;
-                        alert('desktop');
+                        
 		}
 
 
@@ -184,7 +184,9 @@ $(window).on("load resize",function(e){
 		}else{
 			isDesktop = true;
 		}
-        toTop(isMobile);
+                isMobile = true;
+                alert('mobile set');
+                toTop(isMobile);
 });
 
 //RESIZE EVENTS
