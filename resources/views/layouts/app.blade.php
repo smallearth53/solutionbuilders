@@ -73,14 +73,14 @@
                                 <ul class="nav navbar-nav pull-right">
 
                                     <li class="primary">
-                                        <a href="{{url('/')}}" class="firstLevel active hasSubMenu" >Home</a>
+                                        <a href="{{url('/')}}" class="firstLevel active last" >Home</a>
 
                                     </li>
 
                                     <li class="sep"></li>
 
                                     <li class="primary"> 
-                                        <a href="{{url('/about')}}" class="firstLevel hasSubMenu" >About</a>
+                                        <a href="{{url('/about')}}" class="firstLevel last" >About</a>
 
 
                                     </li>
