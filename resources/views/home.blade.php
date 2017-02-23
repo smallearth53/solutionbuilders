@@ -239,7 +239,7 @@
                 <!-- services -->
                 <section id="services">
                     <div class="col-md-12 text-center pt30 pb30">
-                        <h1>Our damn services</h1>
+                        <h1>Our Remote Services</h1>
                         <p>We are doing a couple of things you might be interested in</p>
                     </div>
                     <div class="container pb30 pt30 ">
