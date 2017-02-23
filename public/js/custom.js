@@ -73,7 +73,7 @@ $(document).ready(function() {
 
     '</div>'; 
 
-    $("body").append($colorsHTML);  
+//    $("body").append($colorsHTML);  Uncomment this statement to re-enable color picker
 
     var s = document.createElement("script");
     s.type = "text/javascript";
@@ -171,8 +171,10 @@ $(window).on("load resize",function(e){
 		//mobile detection
 		if(Modernizr.mq('only all and (max-width: 767px)') ) {
 			isMobile = true;
+                        alert('mobile');
 		}else{
 			isMobile = false;
+                        alert('desktop');
 		}
 
 
