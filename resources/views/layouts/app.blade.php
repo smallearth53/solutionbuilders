@@ -207,19 +207,20 @@
 
 
         <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<!--        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+<!--        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>-->
 
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+       
 
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 
         <!-- Custom Hideo -->
         <script type="text/javascript" src="js-plugin/respond/respond.min.js"></script>
-        <script type="text/javascript" src="js-plugin/jquery/1.8.3/jquery.min.js"></script>
-        <script type="text/javascript" src="js-plugin/jquery-ui/jquery-ui-1.8.23.custom.min.js"></script>
+        <script type="text/javascript" src="js-plugin/jquery-ui/jquery-ui-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js-plugin/jquery-ui/jquery-ui-1.8.23.custom.min.js"></script>
 
         <!-- third party plugins  -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
         <script type="text/javascript" src="js-plugin/easing/jquery.easing.1.3.js"></script>
 
