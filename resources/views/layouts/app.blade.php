@@ -1,10 +1,10 @@
 <html>
     <head>
         <title>Solution Builders - @yield('title')</title>
-        
+
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="google-site-verification" content="8OqkxmFXFbjAAYoqNcptj6MRo3SYAf9MWWvDf9h0J-w" />
-        
+
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="{{ URL::asset('/css/app.css') }}">
 
@@ -81,11 +81,16 @@
                                     <li class="sep"></li>
 
                                     <li class="primary"> 
-                                        <a href="{{url('/about')}}" class="firstLevel last" >About</a>
+                                        <a href="{{url('/about')}}" class="firstLevel last" >About Us</a>
 
 
                                     </li>
+                                    <li class="sep"></li>
+                                    <li class="primary"> 
+                                        <a href="{{url('/portfolio')}}" class="firstLevel last" >Portfolio</a>
 
+
+                                    </li>
 
 
                                     <li class="sep"></li>
@@ -215,17 +220,17 @@
 <!--        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
 <!--        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>-->
 
-       
+
 
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 
         <!-- Custom Hideo -->
         <script type="text/javascript" src="js-plugin/respond/respond.min.js"></script>
         <script type="text/javascript" src="js-plugin/jquery-ui/jquery-ui-1.10.2.min.js"></script>
-	<script type="text/javascript" src="js-plugin/jquery-ui/jquery-ui-1.8.23.custom.min.js"></script>
+        <script type="text/javascript" src="js-plugin/jquery-ui/jquery-ui-1.8.23.custom.min.js"></script>
 
         <!-- third party plugins  -->
-         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
         <script type="text/javascript" src="js-plugin/easing/jquery.easing.1.3.js"></script>
 

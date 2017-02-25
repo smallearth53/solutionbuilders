@@ -7,11 +7,17 @@
 @endsection
 
 @section('content')
-<section id="services">
-                    <div class="col-md-12 text-center pt30 pb30">
-                        <h1>Our Remote Services</h1>
-                        <p>We are doing a couple of things you might be interested in</p>
-                    </div>
+<section id="page" >
+    <header class="page-header">
+                   <div class="container">
+					<div class="row">
+                                            <div class="col-sm-6">
+                        <h1>About Our Company</h1>
+                        
+                                        </div>
+                                        </div>
+                   </div>
+    </header>
 </section>
 
 <section class="pt40 pb40 color1">
