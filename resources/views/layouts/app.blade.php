@@ -3,6 +3,7 @@
         <title>Solution Builders - @yield('title')</title>
         
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="google-site-verification" content="8OqkxmFXFbjAAYoqNcptj6MRo3SYAf9MWWvDf9h0J-w" />
         
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="{{ URL::asset('/css/app.css') }}">
