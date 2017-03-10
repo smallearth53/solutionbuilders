@@ -45,7 +45,8 @@
 
         <!-- End of custom additions -->
 
-        <link rel="stylesheet" href="{{ URL::asset('/css/custom.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('/css/custom.css').'?v'.time() }}">
+        <link href="https://fonts.googleapis.com/css?family=Audiowide|Fascinate+Inline|Roboto+Slab" rel="stylesheet">
     </head>
     <body class="activateAppearAnimation">
         @section('navbar')

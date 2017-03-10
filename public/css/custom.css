@@ -8,7 +8,27 @@ and open the template in the editor.
     Author     : Tom
 */
 
-body {
+body, h1, h2, h3, h4, h5, h6, p {
     font-family: 'Roboto', sans-serif; 
+    font-family: 'Courier';
+    font-family: 'Fascinate Inline', cursive;
+    font-family: 'Audiowide', cursive;
+    font-family: 'Roboto Slab', serif;
 }
+/*
+footer {
+    background-color: #252525;
+    color: #b6b6b6;
+}
+
+#footerRights {
+    background-color: #252525;
+    color: #b6b6b6;
+}
+
+#mainheader {
+    background-color: #252525;
+    color: #b6b6b6;
+}*/
+
 
