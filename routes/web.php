@@ -24,6 +24,9 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::post('/contact', 'ContactController@index');
+
+
 Route::get('/portfolio', function () {
     return view('portfolio');
 });
