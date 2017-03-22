@@ -7,10 +7,11 @@
         
         <link rel="icon" type="image/x-icon" href="{{asset('img/favicon.ico')}}">
 
-        <title>Service Unavailable</title>
+        <title>Site Under Construction</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css">
 
         <!-- Styles -->
         <style>
@@ -42,23 +43,28 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 64px;
                 padding-bottom: 50px;
             }
         </style>
     </head>
     <body>
+        
         <div class="flex-center position-ref full-height">
             <div class="content">
+                
+                   
                 <div class="title">
                     Site Under Construction
                     
                 </div>
+              
                 <div>
                     <img src="{{asset('img/coffee-cup.png')}}">
                     </div>
             </div>
         </div>
+           
     </body>
 </html>
 
