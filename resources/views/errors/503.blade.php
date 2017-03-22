@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="icon" type="image/x-icon" href="{{asset('img/favicon.ico')}}">
 
         <title>Service Unavailable</title>
 
@@ -41,6 +43,7 @@
 
             .title {
                 font-size: 84px;
+                padding-bottom: 50px;
             }
         </style>
     </head>
@@ -49,7 +52,11 @@
             <div class="content">
                 <div class="title">
                     Site Under Construction
+                    
                 </div>
+                <div>
+                    <img src="{{asset('img/coffee-cup.png')}}">
+                    </div>
             </div>
         </div>
     </body>
