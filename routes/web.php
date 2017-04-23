@@ -31,6 +31,11 @@ Route::get('/gallery', function () {
     return view('gallery');
 });
 
+Route::get('/materialdesign', function () {
+    return view('materialdesign');
+});
+
+
 
 
 

@@ -96,7 +96,11 @@
 
 
                                 </li>
+                                <li class="primary">
+                                    <a href="{{url('/materialdesign')}}" class="firstLevel last">MDB Design</a>
 
+
+                                </li>
 
                                 <li class="sep"></li>
                                 <li id="lastMenu" class="last"><a href="{{url('/contact')}}" class="firstLevel last">Contact</a>
@@ -164,7 +168,7 @@
 
                                 <h3>Forthcoming Projects</h3>
                                 <ul class="list-unstyled iconList borderList">
-                                    <li><a href="#">Mrs Nel's New Houst</a></li>
+                                    <li><a href="#">Mrs Nel's New House</a></li>
                                     <li><a href="#">ABC Incorporated Carports</a></li>
                                     <li><a href="#">Office Renovations</a></li>
                                     <li><a href="#">Granny's Bed and Breakfast</a></li>
@@ -206,13 +210,14 @@
                                 <li><a href="#" class="tips" title="follow us on Linkedin"><i
                                                 class="icon-linkedin-1 iconRounded"></i></a></li>
                                 {{--<li><a href="#" class="tips" title="follow me on Dribble"><i--}}
-                                                {{--class="icon-dribbble iconRounded"></i></a></li>--}}
+                                {{--class="icon-dribbble iconRounded"></i></a></li>--}}
                             </ul>
                         </div>
 
 
                         <div class="col-md-12">
-                            <p>Copyright © 2017 <a href="http://irongecko.co.za" target="blank">Irongecko Productions</a> / All rights reserved.</p>
+                            <p>Copyright © 2017 <a href="http://irongecko.co.za" target="blank">Irongecko
+                                    Productions</a> / All rights reserved.</p>
                         </div>
 
                     </div>

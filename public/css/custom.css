@@ -9,12 +9,17 @@ and open the template in the editor.
 */
 
 body, h1, h2, h3, h4, h5, h6, p {
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
     font-family: 'Courier';
     font-family: 'Fascinate Inline', cursive;
     font-family: 'Audiowide', cursive;
     font-family: 'Roboto Slab', serif;
+
 }
+
+/*.page-header {*/
+/*background: #6ba1c4;*/
+/*}*/
 /*
 footer {
     background-color: #252525;

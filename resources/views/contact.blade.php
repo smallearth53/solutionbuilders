@@ -9,7 +9,7 @@
 @section('content')
 <!-- ======================================= content ======================================= -->
 <section id="page">
-    <header class="page-header">
+    <header class="page-header color1" style="background: #FFF">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
